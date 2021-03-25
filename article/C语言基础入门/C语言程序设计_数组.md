@@ -69,7 +69,6 @@ a 数组的 10 个元素分别是：a[0]，a[1],  a[2]......a[9]
 **数组在内存中的存储方式**
 
 <div align=center><img src='./picture/一维数组.png'></div>
-<p align=right><font size=2>内存布局</font></p>
 
 ```c
 int array[5];
