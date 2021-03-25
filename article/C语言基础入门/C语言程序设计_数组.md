@@ -68,7 +68,7 @@ a 数组的 10 个元素分别是：a[0]，a[1],  a[2]......a[9]
 
 **数组在内存中的存储方式**
 
-![](./picture/一维数组.png)
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtQ8QIPf25Hcygz3eCYWcjuyASEUSQh4JdDYZPKtm92AaxBQLQLNXrWZPWGcuxXLhut1dpPV2tG6qw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
 
 ```c
 int array[5];
