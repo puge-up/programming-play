@@ -1,25 +1,25 @@
-- [三种结构](#三种结构)
-  - [1、顺序结构](#1顺序结构)
-  - [2、选择结构](#2选择结构)
-  - [3、循环结构](#3循环结构)
-    - [while 循环](#while-循环)
-    - [do...while](#dowhile)
-    - [for 循环](#for-循环)
-- [三步走战略](#三步走战略)
-  - [第一步](#第一步)
-  - [第二步](#第二步)
-- [编程实践](#编程实践)
-  - [1、一个数分解为其质因子之积的形式](#1一个数分解为其质因子之积的形式)
-  - [2、用 C 语言代码实现菱形图案](#2用-c-语言代码实现菱形图案)
-  - [3、用定积分极限定义计算 0 到 180 度之间，sin(x) 与横轴所围成的面积](#3用定积分极限定义计算-0-到-180-度之间sinx-与横轴所围成的面积)
-- [强调几点](#强调几点)
-- [说明](#说明)
+- [一、三种结构](#一三种结构)
+  - [1.1 顺序结构](#11-顺序结构)
+  - [1.2 选择结构](#12-选择结构)
+  - [1.3 循环结构](#13-循环结构)
+    - [1.3.1 while 循环](#131-while-循环)
+    - [1.3.2 do...while](#132-dowhile)
+    - [1.3.3 for 循环](#133-for-循环)
+- [二、三步走战略](#二三步走战略)
+  - [2.1 第一步](#21-第一步)
+  - [2.2 第二步](#22-第二步)
+- [三、编程实践](#三编程实践)
+  - [3.1 一个数分解为其质因子之积的形式](#31-一个数分解为其质因子之积的形式)
+  - [3.2 用 C 语言代码实现菱形图案](#32-用-c-语言代码实现菱形图案)
+  - [3.3 用定积分极限定义计算 0 到 180 度之间，sin(x) 与横轴所围成的面积](#33-用定积分极限定义计算-0-到-180-度之间sinx-与横轴所围成的面积)
+- [四、强调几点](#四强调几点)
+- [五、说明](#五说明)
 
 连着写了好几篇的非技术文章了，今天写写技术文章，两者穿插着写，**三步走战略、五大能力体系、思维、打法**，在每一篇文章中都会体现，重在思考、理解，C 语言真的值得每一个程序员去学学，重在编程思想与编程哲学。
 
 不是我技术文章更新较慢，而是一些能力、思维的提升比较重要，这种是大的战略方向，意识必须给到位，而且关于这方面还有许多要写的。
 
-## 三种结构
+## 一、三种结构
 
 **用工程化思想，指导程序设计的过程。**
 
@@ -28,17 +28,17 @@
 
 模块与模块之间的三种关系（必须非常熟练的掌握、理解）：顺序结构、分支结构（选择结构）、循环结构，这三种结构基本上构成了模块的框架。
 
-### 1、顺序结构
+### 1.1 顺序结构
 
-<div align=center><img src='./picture/顺序结构.png'></div>
-<p align=right><font size=2>顺序结构</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDNsgB2owJbfiboxzFfyDZE8UgOYdBXCgVuzE26ho7b9cu4lBELr7dznQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(顺序结构)</p>
 
 从上往下执行每一条代码，机器严格的按照指令走，没有选择、没有循环，是最简单的结构。
 
-### 2、选择结构
+### 1.2 选择结构
 
-<div align=center><img src='./picture/选择结构.png'></div>
-<p align=right><font size=2>选择结构</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDUB4qbRqsqEQKRacGg8TS4aRJ5Ild2w7y5d2HAXGnl2UjoWSBcbeQPA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(选择结构)</p>
 
 ```c
 if(条件表达式)
@@ -57,12 +57,12 @@ if ... else ...   或者 if ... 语句，也是必须掌握的，很简单的。
 - if 后面的 ()，坚决不能丢；
 - if 和 else，只控制其后的一条语句；若需要控制多条语句，则必须用 {} 将这些语句括起来，称为一条 “复合语句”。
 
-### 3、循环结构
+### 1.3 循环结构
 
-<div align=center><img src='./picture/循环结构.png'></div>
-<p align=right><font size=2>循环结构</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDlNmX13ichMSuELiamzWxibdsQIcye5ZKTX0E7Oe44enAWoQKHzoJqhVYQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(循环结构)</p>
 
-#### while 循环
+#### 1.3.1 while 循环
 
 ```c
 while(条件表达式){
@@ -73,7 +73,7 @@ while(条件表达式){
 循环体最少执行 0 次，最多执行无数次。
 ```
 
-#### do...while
+#### 1.3.2 do...while
 
 ```c
 do 
@@ -83,7 +83,7 @@ while(条表);
 do ... while... 这个循环一般不使用。
 ```
 
-#### for 循环
+#### 1.3.3 for 循环
 
 ```c
 for(初值; 条表; 步长){
@@ -97,24 +97,19 @@ while、for 循环用的比较多，三要素：**初值、条件、步长**，�
 
 一个核心观点：我们写的程序，通过指令，转换为机器能识别的是 0 和 1，机器是严格的按照指令执行，最终实现我们预期的任务。
 
-## 三步走战略
+## 二、三步走战略
 
-### 第一步
+### 2.1 第一步
 
-当我们面对一个编程问题，不要急于动手去敲，<font color=green>三步走</font>：**输入 + 处理 + 输出；**
-
-```diff
-+ 绿色
-- 红色
-```
+当我们面对一个编程问题，不要急于动手去敲，三步走：**输入 + 处理 + 输出；**
 
 输入是什么？中间怎么处理？最终的输出结果又是什么？
 
 想清楚了，再动手去实现，那就很简单了。
 
-### 第二步
+### 2.2 第二步
 
-<font color=#008000>三步走</font>：**分而治之  + 变量跟踪 + 换位思考；**
+三步走：**分而治之  + 变量跟踪 + 换位思考；**
 
 **分而治之**：问题再大，也要学会需求拆解，细化，能否把问题拆的足够好，充分的反映了一个人编程经验以及技术能力。
 
@@ -126,7 +121,7 @@ while、for 循环用的比较多，三要素：**初值、条件、步长**，�
 
 **要学的是怎么思考，怎么分析，怎么去实现，把这些能力提升起来。**
 
-## 编程实践
+## 三、编程实践
 
 **说的再多，分析的再清楚，你不去一行一行、一个字母一个字母敲出来，是不起任何作用的**，我当年初学编程的时候，是一个字母一个字母的敲，没用什么代码补全工具，这个很锻炼我的编码能力与代码的认知感觉。
 
@@ -136,7 +131,7 @@ while、for 循环用的比较多，三要素：**初值、条件、步长**，�
 
 下面通过代码实现三个 C 语言的例子，加深学习和理解。
 
-### 1、一个数分解为其质因子之积的形式
+### 3.1 一个数分解为其质因子之积的形式
 
 手工的在纸上画一下，怎么分解，找出规律，用代码实现即可。
 
@@ -174,10 +169,10 @@ void main(void)
 - gcc test.c -o test
 - ./test
 
-<div align=center><img src='./picture/例子1.png'></div>
-<p align=right><font size=2>运行结果</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDdnU5dyPk0AyujuFX7ic3kLdeKJ5SzmBc46x40uQ6zJwCx0aQfk8HuUg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(运行结果)</p>
 
-### 2、用 C 语言代码实现菱形图案
+### 3.2 用 C 语言代码实现菱形图案
 
 要观察这些星星的个数是怎么变化的，用笔在纸上画，找出规律。
 
@@ -210,17 +205,17 @@ void main(void)
 - gcc test.c -o test
 - ./test
 
-<div align=center><img src='./picture/例子2.png'></div>
-<p align=right><font size=2>运行结果</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGD1EZSozAibgseJLOzM6pfoxvCpc7T3HVLcEfIE4tagIbRtnRMVuTHwvw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(运行结果)</p>
 
-### 3、用定积分极限定义计算 0 到 180 度之间，sin(x) 与横轴所围成的面积
+### 3.3 用定积分极限定义计算 0 到 180 度之间，sin(x) 与横轴所围成的面积
 
 分析：很多人咋一看，很难啊，没思路，实现不了，你先自己想想，看看能不能用代码实现这个问题。
 
 其实，这个特别简单，C 语言入门级别，会点高数求极限，知道这个公式就可以了，遇到问题，认真的分析分析，这些都是最简单、最基础的，下面的图很清晰的表示了。
 
-<div align=center><img src='./picture/sin.png'></div>
-<p align=right><font size=2>sin图形</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDn6rBV1xO8etqEXMy0vZwWKMerdOjicakqs1eT5gpMLBrZAiamOhqBGhA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(sin图形)</p>
 
 ```c
 #include<stdio.h>
@@ -245,12 +240,12 @@ void main(void)
 - gcc test.c -o test
 - ./test
 
-<div align=center><img src='./picture/例子3.png'></div>
-<p align=right><font size=2>运行结果</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGDNvC2iaIU2N6FTzjUJu1ickekicUwgwVicmrukWoUDsGe7pJaYYSjZWcw9A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(运行结果)</p>
 
 **学过高数的应该都懂，dx越小，求的极限越接近于真实面积，而极限本身就是这些小面积的求和，大学阶段：高数、概率论、线性代数、离散数学极为重要，对于搞算法的我们来说，非线性拟合问题，拟合函数，低阶高阶特征组合，各参数梯度计算，各个参数求偏导、等都是必备的，没有扎实的数学功底，如何能成为一个优秀的程序员呢？**
 
-## 强调几点
+## 四、强调几点
 
 <font color=green size=5>*1、*</font>
 
@@ -274,8 +269,8 @@ void main(void)
 
 昨天有一个读者给我发了一条微信消息，说我的文章对他的帮助很大，他把我的文章，都打印出来，认真的在专研我的一些思想，和我想表达的一些观点，认真的在悟，我真的是很吃惊，没想到自己的经历还是帮助到了一些人。
 
-<div align=center><img src='./picture/打印pdf.jpeg'></div>
-<p align=right><font size=2>打印的公众号文章</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_png/iaumSdLKJXtSCialDqcncib9nPFgPh6RsGD4aVemOIdaMMbshtcdHWiaiaRic15mUHuxOzpibdu3NXJA4b3E61WH4WeCA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(打印的公众号文章)</p>
 
 其实以前就有人给我说，把我的文章保存了 pdf 文档，还有的在认真的做笔记，我其实是很开心的能帮到各位。
 
@@ -283,6 +278,6 @@ void main(void)
 
 **优秀的人总是在寻找迄今未开拓的地区！！！**
 
-## 说明
+## 五、说明
 
 原创文章链接：[C 语言程序设计-->结构化程序设计](https://mp.weixin.qq.com/s?__biz=MzU4MjQ3NzEyNA==&mid=2247483914&idx=1&sn=472deb568d0dba5cfc2a77771d05c36d&chksm=fdb6f621cac17f37cbd999ca3a505ef406791965876dcb4edb1975c703e69bdaa4186100f77f&token=1250675081&lang=zh_CN#rd)
