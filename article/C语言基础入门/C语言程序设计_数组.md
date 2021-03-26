@@ -146,8 +146,8 @@ int a[3][4]; //3行4列；
 
 ### 4.2 内存映像图
 
-<div align=center><img src='./picture/二维数组.png'></div>
-<p align=right><font size=2>内存布局</font></p>
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/iaumSdLKJXtQ8QIPf25Hcygz3eCYWcjuyVuwWHcQYXYc4OEt3YCk4uiaBYN2vhtLibiaVQ3UaskYYX52YeIo2ib1x2Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1'></div>
+<p align=center>(二维数组存储方式)</p>
 
 ### 4.3 二维数组赋初值
 
