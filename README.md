@@ -181,6 +181,9 @@
 
 打法并不是一成不变的，需要结合你的阶段，目前的处境、个人情况来综合决定最优策略，其很多时候具体打法文字描述未必清楚，有机会可以找我语音一对一聊聊。
 
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/DBGkJoiavM67XeoYG9HSIx88h9xUkcFlapm8uAFTblhvLD9k53mBSANdTxVgM3oRhUH7EbeerqficWHPHExLYw3Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1' width="80%" height="80%"></div>
+<p align=center>(九大打法系列)</p>
+
 ## 一、实习打法
 
 1. [如何找到 BAT 的实习机会](https://github.com/puge-up/programming-play/blob/main/article/%E5%AE%9E%E4%B9%A0%E6%89%93%E6%B3%95/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0BAT%E7%9A%84%E5%AE%9E%E4%B9%A0%E6%9C%BA%E4%BC%9A.md)
@@ -424,6 +427,9 @@
 22. [从零开始学习数据结构-->图的非连通遍历](https://github.com/puge-up/programming-play/blob/main/article/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84_%E5%9B%BE%E7%9A%84%E9%9D%9E%E8%BF%9E%E9%80%9A%E9%81%8D%E5%8E%86.md)
 
 # 资料大礼包
+
+<div align=center><img src='https://mmbiz.qpic.cn/mmbiz_jpg/DBGkJoiavM67XeoYG9HSIx88h9xUkcFlaicJubRoSAHAznmlpgqSF3dOia4QlNelBasw0ezgM8Y91kHhlwoKcfnWA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1' width="80%" height="80%"></div>
+<p align=center>(资料大礼包)</p>
 
 ## 一、技术学习路线图
 
